@@ -56,7 +56,6 @@ public class DataProcessing {
             total += persons.getAge();
         }
         BigDecimal averageAge = BigDecimal.valueOf(total / person.size());
-
         int oldestAge = person.get(0).getAge();
         int youngestAge = person.get(0).getAge();
 
